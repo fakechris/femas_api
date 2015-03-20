@@ -1,0 +1,50 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TraderApi - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\liumeng\AppData\Local\Temp\RSPF615.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I ".\." /D "DEBUG" /D "DEBUG_LOG" /D "WINDOWS" /D "WIN32" /D "MSVC" /Fo"Debug/" /Fd"Debug/" /FD -Yd /c 
+"D:\飞马\01代码\05demo\FemasAPI_V1.00_20131205\traderapidemo\TraderApi4WIN32\PublicFuncs.cpp"
+"D:\飞马\01代码\05demo\FemasAPI_V1.00_20131205\traderapidemo\TraderApi4WIN32\TraderSpi.cpp"
+]
+Creating command line "cl.exe @C:\Users\liumeng\AppData\Local\Temp\RSPF615.tmp" 
+Creating temporary file "C:\Users\liumeng\AppData\Local\Temp\RSPF616.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib wsock32.lib USTPtraderapi.lib /nologo /incremental:yes /pdb:"Debug/TraderApi.pdb" /machine:IX86 /out:"TraderApi.exe" /FIXED:NO /WARN:2 
+".\Debug\PublicFuncs.obj"
+".\Debug\testapi.obj"
+".\Debug\TraderSpi.obj"
+]
+Creating command line "link.exe @C:\Users\liumeng\AppData\Local\Temp\RSPF616.tmp"
+<h3>Output Window</h3>
+Compiling...
+PublicFuncs.cpp
+TraderSpi.cpp
+Generating Code...
+Linking...
+LINK : warning LNK4005: no objects used from library C:\Program Files\Microsoft Visual C++\VC98\LIB\user32.lib
+LINK : warning LNK4005: no objects used from library C:\Program Files\Microsoft Visual C++\VC98\LIB\gdi32.lib
+LINK : warning LNK4005: no objects used from library C:\Program Files\Microsoft Visual C++\VC98\LIB\winspool.lib
+LINK : warning LNK4005: no objects used from library C:\Program Files\Microsoft Visual C++\VC98\LIB\comdlg32.lib
+LINK : warning LNK4005: no objects used from library C:\Program Files\Microsoft Visual C++\VC98\LIB\advapi32.lib
+LINK : warning LNK4005: no objects used from library C:\Program Files\Microsoft Visual C++\VC98\LIB\shell32.lib
+LINK : warning LNK4005: no objects used from library C:\Program Files\Microsoft Visual C++\VC98\LIB\ole32.lib
+LINK : warning LNK4005: no objects used from library C:\Program Files\Microsoft Visual C++\VC98\LIB\oleaut32.lib
+LINK : warning LNK4005: no objects used from library C:\Program Files\Microsoft Visual C++\VC98\LIB\uuid.lib
+LINK : warning LNK4005: no objects used from library C:\Program Files\Microsoft Visual C++\VC98\LIB\odbc32.lib
+LINK : warning LNK4005: no objects used from library C:\Program Files\Microsoft Visual C++\VC98\LIB\odbccp32.lib
+LINK : warning LNK4005: no objects used from library C:\Program Files\Microsoft Visual C++\VC98\LIB\wsock32.lib
+LINK : warning LNK4005: no objects used from library C:\Program Files\Microsoft Visual C++\VC98\LIB\OLDNAMES.lib
+
+
+
+<h3>Results</h3>
+TraderApi.exe - 0 error(s), 13 warning(s)
+</pre>
+</body>
+</html>

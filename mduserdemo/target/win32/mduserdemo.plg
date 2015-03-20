@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: mduserdemo - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\1\AppData\Local\Temp\RSPE9B0.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "..\..\source\femasmduserapi\." /I "..\..\source\mduserdemo\." /D "DEBUG_NOT_LOG" /D "DEBUG" /D "DEBUG_LOG" /D "WINDOWS" /D "MSVC" /Fo"Debug/" /Fd"Debug/" /FD -Yd /c 
+"E:\飞马\00文档\产品规划\发布\FemasAPI_V0.91_20130716\mduserdemo\source\mduserdemo\USTPMDHandler.cpp"
+"E:\飞马\00文档\产品规划\发布\FemasAPI_V0.91_20130716\mduserdemo\source\mduserdemo\USTPMDClient.cpp"
+"E:\飞马\00文档\产品规划\发布\FemasAPI_V0.91_20130716\mduserdemo\source\mduserdemo\profile.cpp"
+]
+Creating command line "cl.exe @C:\Users\1\AppData\Local\Temp\RSPE9B0.tmp" 
+Creating temporary file "C:\Users\1\AppData\Local\Temp\RSPE9C1.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib wsock32.lib USTPmduserapi.lib /nologo /incremental:yes /pdb:"Debug/mduserdemo.pdb" /debug /machine:IX86 /out:".\\mduserdemo.exe" /libpath:"..\..\source\femasmduserapi" /FIXED:NO /WARN:2 
+".\Debug\MsClient.obj"
+".\Debug\USTPMDHandler.obj"
+".\Debug\USTPMDClient.obj"
+".\Debug\profile.obj"
+]
+Creating command line "link.exe @C:\Users\1\AppData\Local\Temp\RSPE9C1.tmp"
+<h3>Output Window</h3>
+Compiling...
+USTPMDHandler.cpp
+USTPMDClient.cpp
+profile.cpp
+Generating Code...
+Linking...
+LINK : warning LNK4005: no objects used from library e:\VC98\LIB\user32.lib
+LINK : warning LNK4005: no objects used from library e:\VC98\LIB\gdi32.lib
+LINK : warning LNK4005: no objects used from library e:\VC98\LIB\winspool.lib
+LINK : warning LNK4005: no objects used from library e:\VC98\LIB\comdlg32.lib
+LINK : warning LNK4005: no objects used from library e:\VC98\LIB\advapi32.lib
+LINK : warning LNK4005: no objects used from library e:\VC98\LIB\shell32.lib
+LINK : warning LNK4005: no objects used from library e:\VC98\LIB\ole32.lib
+LINK : warning LNK4005: no objects used from library e:\VC98\LIB\oleaut32.lib
+LINK : warning LNK4005: no objects used from library e:\VC98\LIB\uuid.lib
+LINK : warning LNK4005: no objects used from library e:\VC98\LIB\odbc32.lib
+LINK : warning LNK4005: no objects used from library e:\VC98\LIB\odbccp32.lib
+LINK : warning LNK4005: no objects used from library e:\VC98\LIB\wsock32.lib
+LINK : warning LNK4005: no objects used from library e:\VC98\LIB\OLDNAMES.lib
+LINK : warning LNK4005: no objects used from library e:\VC98\LIB\libcpmtd.lib
+
+
+
+<h3>Results</h3>
+mduserdemo.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
